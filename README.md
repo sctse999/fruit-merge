@@ -1,5 +1,7 @@
 # Grand Prix — Pseudo-3D F1 Racer
 
+Created by Jonathan Tse
+
 Browser-based Out Run–style pseudo-3D racing game built with **Three.js** and **Vite**.
 
 ## Run locally
