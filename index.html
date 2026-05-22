@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grand Prix — Pseudo-3D Racer</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas" tabindex="0" aria-label="Grand Prix race game"></canvas>
+      <div id="hud" class="hud hidden"></div>
+      <div id="overlay" class="overlay">
+        <h1>Grand Prix</h1>
+        <p class="subtitle">Pseudo-3D Circuit</p>
+        <p class="prompt">Click here or press <kbd>Space</kbd> / <kbd>W</kbd> to start</p>
+        <p class="controls">
+          <kbd>W</kbd>/<kbd>↑</kbd> accelerate ·
+          <kbd>S</kbd>/<kbd>↓</kbd> brake ·
+          <kbd>A</kbd>/<kbd>D</kbd> steer
+        </p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

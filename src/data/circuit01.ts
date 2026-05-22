@@ -1,0 +1,32 @@
+import type { SegmentDef } from '../game/Track';
+
+/** Hand-authored loop (~150k world units). Each length = count of 200-unit road slices. */
+export const CIRCUIT_01: SegmentDef[] = [
+  { length: 8, curve: 0, hill: 0, banking: 0 },
+  { length: 6, curve: 0, hill: 0.001, banking: 0 },
+  { length: 6, curve: 0, hill: 0.002, banking: 0 },
+  { length: 5, curve: 0, hill: 0.001, banking: 0 },
+  { length: 5, curve: 0.003, hill: 0, banking: 0.02 },
+  { length: 5, curve: 0.004, hill: 0, banking: 0.03 },
+  { length: 4, curve: 0.003, hill: 0, banking: 0.02 },
+  { length: 6, curve: 0, hill: 0, banking: 0 },
+  { length: 5, curve: -0.0035, hill: 0, banking: -0.025 },
+  { length: 5, curve: -0.004, hill: 0, banking: -0.03 },
+  { length: 4, curve: -0.003, hill: 0, banking: -0.02 },
+  { length: 6, curve: 0, hill: -0.001, banking: 0 },
+  { length: 6, curve: 0, hill: -0.002, banking: 0 },
+  { length: 5, curve: 0, hill: -0.001, banking: 0 },
+  { length: 6, curve: 0, hill: 0, banking: 0 },
+  { length: 5, curve: 0.003, hill: 0, banking: 0.02 },
+  { length: 5, curve: 0.004, hill: 0, banking: 0.025 },
+  { length: 4, curve: 0.0025, hill: 0, banking: 0.015 },
+  { length: 5, curve: -0.0025, hill: 0, banking: -0.015 },
+  { length: 5, curve: -0.003, hill: 0, banking: -0.02 },
+  { length: 5, curve: -0.0025, hill: 0, banking: -0.018 },
+  { length: 8, curve: 0, hill: 0, banking: 0 },
+  { length: 10, curve: 0, hill: 0, banking: 0 },
+  { length: 5, curve: 0.002, hill: 0, banking: 0.012 },
+  { length: 5, curve: 0.0025, hill: 0, banking: 0.015 },
+  { length: 4, curve: 0.0015, hill: 0, banking: 0.01 },
+  { length: 6, curve: 0, hill: 0, banking: 0 },
+];
